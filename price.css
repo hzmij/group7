@@ -1,0 +1,29 @@
+h3{
+  color:blue;
+    font-size: 160%;
+}
+
+button{
+ background-color: red;
+ border: black;
+ color: white;
+ padding: 15px 15px;
+ text-align: center;
+
+}
+
+body {
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 150%;
+  color:black;
+
+}
+
+
+ input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
