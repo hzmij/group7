@@ -2,9 +2,9 @@
 
 The group member:
 <br><br>
-1)Muhammad 'Afif Akmal Bin Adnan (1819433)
+1)Muhammad 'Afif Akmal Bin Adnan (1819433) / Created the homepage that display the seat and also put an image.
 <br><br>
-2)Tengku Nur Izzah Atirah Bt Tengku Mahamud (1822438)
+2)Tengku Nur Izzah Atirah Bt Tengku Mahamud (1822438) / Created the page for customer to calculate the price of his/her reservation. Single seat more expensive compared to double seat.
 <br><br>
 3) Hamza Abdulghani Obaidullah Mohammad (1824321) / Created the interface for the seat booking, created a loop with buttons for each seat (window/aisle/single).
 <br><br>
