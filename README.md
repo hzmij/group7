@@ -8,7 +8,7 @@ The group member:
 <br><br>
 3) Hamza Abdulghani Obaidullah Mohammad (1824321) / Created the interface for the seat booking, created a loop with buttons for each seat (window/aisle/single).
 <br><br>
-4) Ahmad Hazmi Bin Johari (1824823)
+4) Ahmad Hazmi Bin Johari (1824823) / Created reserved function when user already select the seat it cannot be allocated for another user.
 <br><br>
 <br>
 This project about to establish a bus seat reservation system. Basically, the bus is organised with 30 seats and the seat arranged with 3 in a row which means
