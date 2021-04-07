@@ -1,0 +1,31 @@
+<?php
+
+	$seatnum = -1;
+	if (isset($_POST['bookwindow'])){
+		$bookwindowvalue = $_POST['bookwindow'];
+		$seatnum = (int) filter_var($bookwindowvalue, FILTER_SANITIZE_NUMBER_INT);
+		$seattype = "window";
+		$seatTaken[30] = 0; 
+	}
+
+	if (isset($_POST['bookaisle'])){
+		$bookaislevalue = $_POST['bookaisle'];
+		$seatnum = (int) filter_var($bookaislevalue, FILTER_SANITIZE_NUMBER_INT);
+		$seattype = "aisle";
+		$seatTaken[30] = 0; 
+	}
+
+	if (isset($_POST['booksingle']))
+	{
+		$booksinglevalue = $_POST['booksingle'];
+		$seatnum = (int) filter_var($booksinglevalue, FILTER_SANITIZE_NUMBER_INT);
+		$seattype = "sinlge";
+		$seatTaken[30] = 0; 
+	}
+
+	if (!empty($_POST) && $seatnum == -1)
+		echo "error in the system";
+	//TO DO other staff like reservation print list	and allocating reserved seats in a multidimensional array
+    else if (!empty($_POST))
+	    echo "You have chosen seat No. ". ($seatnum+1) . " and your seat type is: ". $seattype. ".";
+
