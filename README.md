@@ -1,11 +1,15 @@
 # group7
 
 The group member:
+<br>
 1)Muhammad 'Afif Akmal Bin Adnan (1819433)
+<br>
 2)Tengku Nur Izzah Atirah Bt Tengku Mahamud (1822438)
-3) Hamza Abdulghani Obaidullah Mohammad (1824321)
+<br>
+3) Hamza Abdulghani Obaidullah Mohammad (1824321) / Created the interface for the seat booking, created a loop with buttons for each seat (window/aisle/single).
+<br>
 4) Ahmad Hazmi Bin Johari (1824823)
-
+<br>
 This project about to establish a bus seat reservation system. Basically, the bus is organised with 30 seats and the seat arranged with 3 in a row which means
  there is 3 seat in a row ; single seat next to double seat. The user can choose and reserve any seat as long as it not belong to anyone. However,
  the single seat is more expensive compared to double seat. 
